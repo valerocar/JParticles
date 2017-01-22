@@ -1,0 +1,21 @@
+<h2> Description</h2>
+This structure is composed of three types of potential: stretch potential, bend potential and non-singular potential.
+The no-singular potential is used to avoid folds of the grid structure. To see the effect,
+move the left slider to the right end. See how the grid folds. To correct this, move the right slider to the right end.
+
+<h2>Controls</h2>
+
+<b><i>Viscosity</i></b> : Set the value for the medium viscosity in here.
+Don't forget to press the return key to activate the new value.</p>
+
+<p><b><i>Time-step</i></b> : Set the value for the time step in here.
+Don't forget to press the return key to activate the new value.</p>
+
+<p><b><i>Particles</i></b> : The yellow particles are free to move. The red ones are fixed.
+To fix-relase a particle, press the right mouse button while the mouse pointer is over the particle. To move a particle drag the mouse while holding its left button.</p>
+
+<p><b><i>Left slider</i></b> : Bends the lower side of the grid.</p>
+
+<p><b><i>Right slider</i></b> : Controls the stiffness of the non-singular potential</p>
+
+<p><b><i>Space Bar</i></b>: Toggle Stop/Start the animation.</p>

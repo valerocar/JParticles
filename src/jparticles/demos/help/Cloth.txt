@@ -1,0 +1,13 @@
+<h2> Description</h2>
+
+This object is created by adding zero length springs along the white links
+and nonzero length springs along their diagonals
+(which are not visible in the simulation). The whole structure is under the influence of gravity.
+
+<h2>Controls</h2>
+
+<b><i>Particles</b></i>: The yellow particles are free to move. The red ones are fixed.
+To fix-release a particle, press the right mouse button while the mouse pointer is over the particle.
+To move a particle, drag the mouse while holding left mouse button."
+
+<p><b><i>Space Bar</i></b>: Toggle Stop/Start the animation.</p>

@@ -1,0 +1,23 @@
+<h2>Description</h2>
+
+This applet shows of a circular chain of particles, each of which is attached to an outer fixed particle
+by means of a spring. Drag the red particles with the mouse.
+By right clicking on a particle you can alternate its state from fixed (red color) to free (orange color).
+Experiment by changing the viscosity and the time increment
+(don't forget to press return after changing the value)
+
+<h2>Controls</h2>
+
+<b><i>Viscosity</i></b> : Set the value for the medium viscosity.
+Don't forget to press the return key to activate the new value.
+
+<p><b><i>Time-step </i></b>: Set the value for the time step. Don't forget to press the
+return key to activate the new value.</p>
+
+<p><b><i>Particles</i></b>: The yellow particles are free to move. The red ones are fixed.
+To fix-release a particle, press the right mouse button while the mouse pointer is over the particle.
+To move a particle, drag it with the mouse while holding the left button.</p>
+
+<p><b><i>Slider</i></b>: Controls the stiffness of the springs joining the particles.</p>
+
+<p><b><i>Space Bar</i></b>: Toggle Stop/Start the animation.</p>
