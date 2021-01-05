@@ -115,7 +115,9 @@ nail.setParticleColors(particles);
 
 The effect of the last line in the above code is to give different colors to the fixed and the free particles. 
 
-
+<script type="text/javascript" charset="utf-8" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 
 
