@@ -115,10 +115,11 @@ nail.setParticleColors(particles);
 
 The effect of the last line in the above code is to give different colors to the fixed and the free particles. 
 
+<html>
 <script type="text/javascript" charset="utf-8" 
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
 https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
-
+</html>
 
 
 You can use the [editor on GitHub](https://github.com/valerocar/JParticles/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
