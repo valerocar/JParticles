@@ -9,9 +9,9 @@ JParticles  is java library to simulate the evolution of particles systems (see 
 
 A particle system is a collection of point masses whose motions obey Newton's second law of motion, i.e the acceleration of a given particle is equal to the force on that particle divided by its mass. In the JParticles, a particle system is represented as an object of the class ParticleSystem. For example, if we want to construct a system of ten particles in two-dimensional space, we use the code:
 
-´´´
+```markdown
 particles = new ParticleSystem(2,10);
-´´´
+```
 
 
 
