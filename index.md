@@ -119,6 +119,8 @@ The effect of the last line in the above code is to give different colors to the
 <script type="text/javascript" charset="utf-8" 
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
 https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
+  
+$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
 </html>
 
 
