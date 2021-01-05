@@ -85,8 +85,35 @@ JToolBar evolToolBar = panel.getEvolutionToolBar();
 For an example of an applet using the above concepts see: ParticleApplet. The source code for this applet can be found in ParticlesApplet.java
 
 
+## Fixing particles
 
 
+It is possible to fix the position of a given set of particles by using objects of the class ParticlesNail. For a system of ten particles in the plane:
+
+```java
+particles = new ParticleSystem(2,10);
+```
+
+we can fix particles 3, 4 and 6 by using the code
+
+```java
+ParticlesNail nail = new ParticlesNail(2,10); 
+nail.fix(3); 
+nail.fix(4); 
+nail.fix(6); 
+particles.setVelocityConstraint(nail);
+```
+
+The arguments to the constructor of an object of the class ParticlesNail are dimension of the space in which the particles live, and the number of particles in the system. To be able to fix and release particles at evolution time in a ParticlesPanel object, we can use code like:
+
+```java
+ParticlesPanel panel = particles.createAnimationPanel(512,512,30); 
+ParticlesNail nail = panel.getNail(); 
+particles.setVelocityConstraint(nail); 
+nail.setParticleColors(particles);
+```
+
+The effect of the last line in the above code is to give different colors to the fixed and the free particles. 
 
 
 
