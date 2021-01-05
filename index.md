@@ -1,4 +1,25 @@
-## Welcome to GitHub Pages
+#JParticles Tutorial
+
+
+## Introduction
+JParticles  is java library to simulate the evolution of particles systems (see next section). You will need JRE1.8 (or higher) installed on your machine to run the programs in this tutorial.
+
+## Particle Systems
+
+
+A particle system is a collection of point masses whose motions obey Newton's second law of motion, i.e the acceleration of a given particle is equal to the force on that particle divided by its mass. In the JParticles, a particle system is represented as an object of the class ParticleSystem. For example, if we want to construct a system of ten particles in two-dimensional space, we use the code:
+
+´´´
+particles = new ParticleSystem(2,10);
+´´´
+
+
+
+
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/valerocar/JParticles/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
