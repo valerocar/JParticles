@@ -15,7 +15,7 @@ particles = new ParticleSystem(2,10);
 
 By default the position and velocities of the particles in a a system are all set to zero. To change the position and velocity of a specified particle, say particle number three, we use code as the following:
 
-```markdown
+```java
 double [] position = {0.5,0.3}; 
 double [] velocity = {1.0,2.0}; 
 particles.setPosition(3,position); 
