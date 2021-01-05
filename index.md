@@ -24,45 +24,63 @@ particles.setVelocity(3,velocity);
 
 Having set the initial state of the particles, we  start the motion of the particle system by calling:
 
+```java
 particles.evolve();
+```
 
 This method evolves the system to the end of a time step whose value can be obtained by using the method
 
+```java
 particles.getTimeIncrement();
+```
 
 and set by using the method
 
+```java
 particles.setTimeIncrement(double);
+```
 
 By default, the only forces acting on the particle system are viscous forces, whose intensity is measured by the number
 
+
+```java
 particles.getMediumViscosity();
+```
 
 which can be set by the method
 
+```java
 particles.setMediumViscosity(double);
+```
 
 If we want to use a Swing component to set the viscosity and the time increment we can call:
 
+```java
 particles.getPropertiesToolBar();
+```
 
 To render the evolution of the particles, we create a JParticlesPanel object by calling
 
+```java
 ParticlesPanel panel = particles.createAnimationPanel(int width,int height,int fps);
+```
 
 where fps is the animation rate in frames per second. The panel can be used to easily render and manipulate particles systems by using code like
 
+```java
 JFrame frame = new JFrame(512,512); 
-
 frame.getContentPane.add(pane,BorderLayOut.CENTER); 
+```
 
+```java
 frame.show(); 
-
 panel.startAnimation();
-
+```
 To get a swing component to control the evolution of the system, we use the code:
 
+```java
 JToolBar evolToolBar = panel.getEvolutionToolBar();
+```
 
 For an example of an applet using the above concepts see: ParticleApplet. The source code for this applet can be found in ParticlesApplet.java
 
